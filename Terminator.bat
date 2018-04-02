@@ -1,5 +1,5 @@
 @echo off
-title PC Time
+title Terminator.bat
 
 REM removes header from PsExec output;
 REM add 2>&1 | %FILTER% to the end of PsExec commands.
