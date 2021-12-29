@@ -6,7 +6,7 @@ A simple interactive Windows batch script which can be used to remotely check sy
 
 Administrative rights on the remote PC will likely be required. It may be necessary to run this script as another user with the appropriate privileges. 
 
-To logoff the current user, PsExec alsos need to be installed and available in your $PATH before running the script. You can download and install PsExec, and other SystemInternals tools at [www.sysinternals.com](http://www.sysinternals.com).
+To logoff the current user, PsExec also needs to be present and available in your $PATH before running the script. You can download and install PsExec, and other SystemInternals tools at [www.sysinternals.com](http://www.sysinternals.com).
 
 ## Usage
 
