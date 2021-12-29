@@ -3,9 +3,9 @@ title Terminator.bat
 
 REM removes header from PsExec output;
 REM add 2>&1 | %FILTER% to the end of PsExec commands.
-set F1=find /v "PsExec v2.11 - Execute processes remotely"
-set F2=find /v "Copyright (C) 2001-2014 Mark Russinovich"
-set F3=find /v "Sysinternals - www.sysinternals.com"
+set F1=find /v "PsExec v"
+set F2=find /v "Copyright"
+set F3=find /v "Sysinternals"
 set FILTER=%F1%^|%F2%^|%F3%
 
 :PC
