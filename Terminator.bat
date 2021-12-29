@@ -112,7 +112,7 @@ set /p logoff="Logoff current user? (Y or N): "
 if /I '%logoff%'=='Y' (
 	cls
 	echo logging off current user on %PCName%
-	\\path\to\psexec.exe \\%PCname% logoff console 2>&1 | %FILTER%
+	psexec.exe \\%PCname% logoff console 2>&1 | %FILTER%
 	echo.
 	pause
 	goto start
